@@ -9,14 +9,14 @@ html {
 }
 
 h1 {
-  font-family: 'Sigmar One', cursive;
+  font-family: Sigmar One, cursive;
   display: block;
   font-size: 4rem;
   margin: .3em;
 }
 
 .berries {
-  color: #cc1465;
+  color: #b20953;
 }
 
 header {
@@ -35,7 +35,7 @@ li {
 
 a {
   display: inline-block;
-  font-family: 'Georgia', serif;
+  font-family: Georgia, serif;
   color: #fff;
   background-color: #b2a212;
   border-radius: 4px;
@@ -65,11 +65,13 @@ footer {
 
 body {
   background-color: #fff;
+  margin: .3em;
+
 }
 
 h2 {
   color: #b20953;
-  font-family: 'Sigmar One', cursive;
+  font-family: Sigmar One, cursive;
   display: inline-block;
   margin-left: .3em;
   font-size: 1.875rem;
@@ -77,4 +79,9 @@ h2 {
 
 p {
   font-size: 1.125em;
+}
+
+img {
+  display: block;
+  width: 100%;
 }
