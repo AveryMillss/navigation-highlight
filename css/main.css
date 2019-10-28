@@ -9,10 +9,12 @@ html {
 }
 
 h1 {
-  font-family: Sigmar One, cursive;
+  font-family: "Sigmar One", cursive;
   display: block;
-  font-size: 4rem;
+  font-size: 3rem;
   margin: .3em;
+  padding: 0 .75em;
+  text-align: inherit;
 }
 
 .berries {
@@ -29,8 +31,8 @@ header {
 li {
   display: inline-block;
   list-style-type: none;
-  font-size: 1.875rem;
-  margin: 0 auto;
+  font-size: 1.125rem;
+  margin: .3em 0;
 }
 
 a {
@@ -39,14 +41,14 @@ a {
   color: #fff;
   background-color: #b2a212;
   border-radius: 4px;
-  padding: .3em;
+  padding: .2em .5em .3em;
   text-decoration: none;
   font-weight: normal;
 }
 
 ul {
-  margin: 0em;
-  padding: 0em;
+  margin: 0;
+  padding: 0;
 }
 
 a:hover {
@@ -61,17 +63,17 @@ footer {
   display: block;
   background-color: #ffe500;
   text-align: center;
+  padding: .3em;
 }
 
 body {
   background-color: #fff;
-  margin: .3em;
-
+  margin: 0;
 }
 
 h2 {
   color: #b20953;
-  font-family: Sigmar One, cursive;
+  font-family: "Sigmar One", cursive;
   display: inline-block;
   margin-left: .3em;
   font-size: 1.875rem;
@@ -79,9 +81,18 @@ h2 {
 
 p {
   font-size: 1.125em;
+  color: #2f2d13;
+  text-align: inherit;
+  margin: .5em;
 }
 
 img {
   display: block;
   width: 100%;
+  margin: .5em;
+  padding-bottom: .5em;
+}
+
+main {
+  margin: .3em;
 }
