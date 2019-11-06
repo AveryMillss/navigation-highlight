@@ -2,6 +2,8 @@ html {
   box-sizing: border-box;
   background-color: #dbd6cf;
   line-height: 1.5;
+  font-family: Georgia, serif;
+  color: #2f2d13;
 }
 
 *, *::before, *::after {
@@ -25,7 +27,6 @@ header {
   display: block;
   text-align: center;
   background-color: #ffe500;
-  padding: .2em;
 }
 
 li {
@@ -37,7 +38,6 @@ li {
 
 a {
   display: inline-block;
-  font-family: Georgia, serif;
   color: #fff;
   background-color: #b2a212;
   border-radius: 4px;
@@ -48,7 +48,7 @@ a {
 
 ul {
   margin: 0;
-  padding: 0;
+  padding: 0 0 .3em;
 }
 
 a:hover {
@@ -74,24 +74,14 @@ body {
 h2 {
   color: #b20953;
   font-family: "Sigmar One", cursive;
-  display: inline-block;
-  margin: .6em .3em;
   font-size: 1.875rem;
-}
-
-p {
-  font-size: 1.125em;
-  color: #2f2d13;
-  text-align: inherit;
-  margin: .4em;
 }
 
 img {
   display: block;
   width: 100%;
-  padding-bottom: .3em;
 }
 
 main {
-  margin: .6em;
+  margin: 0 .75em;
 }
